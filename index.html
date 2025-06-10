@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delicious Bites</title>
+  <!-- MDB CSS -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Delicious Bites</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="vh-100 d-flex align-items-center" style="background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;">
+    <div class="container text-white text-center">
+      <h1 class="display-3 fw-bold">Welcome to Delicious Bites</h1>
+      <p class="lead mb-4">Experience the best flavors in town.</p>
+      <a href="#menu" class="btn btn-primary btn-lg">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Preview -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Our Popular Dishes</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80"
+              class="card-img-top"
+              alt="Dish 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Grilled Salmon</h5>
+              <p class="card-text">Fresh salmon grilled to perfection with herbs and lemon.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80"
+              class="card-img-top"
+              alt="Dish 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Classic Burger</h5>
+              <p class="card-text">Juicy beef burger with cheese, lettuce, and special sauce.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=600&q=80"
+              class="card-img-top"
+              alt="Dish 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Veggie Pasta</h5>
+              <p class="card-text">Delicious pasta tossed with fresh veggies and light sauce.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Contact Us</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Your name" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Your email" />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" rows="4" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- MDB JS -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
+  ></script>
+  <!-- Font Awesome for hamburger icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
